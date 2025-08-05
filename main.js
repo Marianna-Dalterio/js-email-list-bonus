@@ -17,4 +17,7 @@ function stampa() {
 
 stampa()
 
-
+const btnEl = document.querySelector("button");
+btnEl.addEventListener("click", () => {
+    stampa();
+})
